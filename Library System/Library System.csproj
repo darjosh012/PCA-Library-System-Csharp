@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AD873590-3E4D-4C85-9137-408156E7FAD0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Library_System</RootNamespace>
+    <AssemblyName>Library System</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts.Designer.cs">
+      <DependentUpon>Accounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add Book Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Book Dialog.Designer.cs">
+      <DependentUpon>Add Book Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add Faculty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Faculty.Designer.cs">
+      <DependentUpon>Add Faculty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Student.Designer.cs">
+      <DependentUpon>Add Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add User.Designer.cs">
+      <DependentUpon>Add User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Audit Trail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Audit Trail.Designer.cs">
+      <DependentUpon>Audit Trail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete Book Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete Book Dialog.Designer.cs">
+      <DependentUpon>Delete Book Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dewee Decimal System.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dewee Decimal System.Designer.cs">
+      <DependentUpon>Dewee Decimal System.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Faculty Dialog.Designer.cs">
+      <DependentUpon>Faculty Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Window.Designer.cs">
+      <DependentUpon>Main Window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OriginalMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OriginalMainMenu.Designer.cs">
+      <DependentUpon>OriginalMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pcalibrary_databaseDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pcalibrary_databaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Penalties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Penalties.Designer.cs">
+      <DependentUpon>Penalties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Barrow Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Barrow Dialog.Designer.cs">
+      <DependentUpon>Barrow Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Book Issued.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Book Issued.Designer.cs">
+      <DependentUpon>Book Issued.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Splash Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash Screen.Designer.cs">
+      <DependentUpon>Splash Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login Screen.Designer.cs">
+      <DependentUpon>Login Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student Dialog.Designer.cs">
+      <DependentUpon>Student Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update Dialog.Designer.cs">
+      <DependentUpon>Update Dialog.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Accounts.resx">
+      <DependentUpon>Accounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add Book Dialog.resx">
+      <DependentUpon>Add Book Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add Faculty.resx">
+      <DependentUpon>Add Faculty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add Student.resx">
+      <DependentUpon>Add Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add User.resx">
+      <DependentUpon>Add User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Audit Trail.resx">
+      <DependentUpon>Audit Trail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete Book Dialog.resx">
+      <DependentUpon>Delete Book Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dewee Decimal System.resx">
+      <DependentUpon>Dewee Decimal System.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Faculty Dialog.resx">
+      <DependentUpon>Faculty Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Window.resx">
+      <DependentUpon>Main Window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OriginalMainMenu.resx">
+      <DependentUpon>OriginalMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penalties.resx">
+      <DependentUpon>Penalties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Barrow Dialog.resx">
+      <DependentUpon>Barrow Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Book Issued.resx">
+      <DependentUpon>Book Issued.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash Screen.resx">
+      <DependentUpon>Splash Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login Screen.resx">
+      <DependentUpon>Login Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student Dialog.resx">
+      <DependentUpon>Student Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update Dialog.resx">
+      <DependentUpon>Update Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="pcalibrary_databaseDataSet1.xsc">
+      <DependentUpon>pcalibrary_databaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="pcalibrary_databaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pcalibrary_databaseDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pcalibrary_databaseDataSet1.xss">
+      <DependentUpon>pcalibrary_databaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_download_lg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PCA_Original_White_Logo.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vista_login1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\library-books1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form-login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\address-book-new-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Material Wallpaper 71.3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Material-Wallpaper-22-Android-Lollipop-wallpapers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fon116 2160x1920.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\libraryPhoto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12722700_999532400085404_2027691409_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\android-5-0-lollipop-material-1777.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add nf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book_stack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash-2-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-2-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-2-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\write-2-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right out-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right out-5121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14-88.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vista_login11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\android-L-Material-Design-Wallpapers-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solid_color_patterns_spiral_ultra_3840x2160_hd-wallpaper-17970.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pca transparent final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lms.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oie_biL28szukiea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oie_transparent %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oie_transparent %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\754606-blue-solid-color-wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pca transparent final bnw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oie_transparent %281%29 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_close_48px-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PngMedium-pencil-book-ruler-17294.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DDC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0c09763a109c712505dc0e8e39b6e7b2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o_bea4b319bd547524-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Borrow1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\return.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add student.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add-male-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ils.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donor-pay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\097dd3b82477b5f04589417cabcf4d5e.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

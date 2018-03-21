@@ -1,0 +1,27 @@
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\bin\Debug\Library System.exe.config
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\bin\Debug\Library System.exe
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\bin\Debug\Library System.pdb
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\bin\Debug\MySql.Data.dll
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.Accounts.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.Add_Book_Dialog.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.Add_Faculty.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.Add_Student.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.Add_User.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.Audit_Trail.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.Delete_Book_Dialog.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.Dewee_Decimal_System.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.Faculty_Dialog.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.Main_Window.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.OriginalMainMenu.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.Penalties.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.Properties.Borrow_Dialog.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.Properties.Book_Issued.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.Form1.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.Form2.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.Properties.Resources.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.Student_Dialog.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library_System.Update_Dialog.resources
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library System.csproj.GenerateResource.Cache
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library System.exe
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library System.pdb
+C:\Users\joshu\Documents\Library System (as of March 1 2016)\Library System\obj\Debug\Library System.csprojResolveAssemblyReference.cache
